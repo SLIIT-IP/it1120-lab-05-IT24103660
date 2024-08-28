@@ -24,8 +24,7 @@ public class IT24103660Lab5Q3 {
 
         int daysReserved = endDate - startDate;
         double discount = 0;
-
-        // Determine discount rate
+[
         if (daysReserved >= 3 && daysReserved <= 4) {
             discount = 0.10;
         } else if (daysReserved >= 5) {

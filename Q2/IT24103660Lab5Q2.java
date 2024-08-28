@@ -7,13 +7,11 @@ public class IT24103660Lab5Q2 {
         System.out.print("Enter the number of new members introduced: ");
         int newMembers = scanner.nextInt();
 
-        // Validate the input
         if (newMembers < 0) {
             System.out.println("The number of new members should be greater than or equal to 0.");
         } else {
             String prize;
-
-            // Use switch statement to determine the prize
+            
             switch (newMembers) {
                 case 0:
                     prize = "No Prize";
@@ -30,13 +28,11 @@ public class IT24103660Lab5Q2 {
                 case 4:
                     prize = "Travelling Chair";
                     break;
-                default: // case when newMembers is 5 or more
+                default: 
                     prize = "Headphone";
                     break;
             }
-
-            // Output the prize
-            System.out.println("The customer is entitled to: " + prize);
+m.out.println("The customer is entitled to: " + prize);
         }   
     }
 }
